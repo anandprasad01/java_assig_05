@@ -1,0 +1,84 @@
+// Q1.Add two numbers//
+
+let a=5;
+let b=6;
+
+console.log(a+b)
+
+Output = 11
+
+
+//Q2.   //
+
+let a=5;
+let b=3;
+
+if(a>b){
+    console.log(true)
+}
+else{
+    console.group(false)
+}
+
+
+//Q3.  //
+
+let a=12;
+let b=20;
+
+if(a%10 == 0 && b%10 == 0){
+    console.log(true)
+}
+else if(a%10 !== 0 && b%10 !== 0){
+    console.group(false)
+}
+else{
+    console.log("true1")
+}
+
+
+//Q4. //
+
+let a = 7868;
+let b = parseInt(a/1000);
+
+console.log("The dight of the" + a + "is" + b);
+
+
+//Q5. //
+let a = 7868;
+
+let b = parseInt(a%10);
+
+console.log("The dight of the" + a + "is" + b);
+
+//Q6.  //
+
+let a = 23;
+let b = 12;
+
+let rem = a%b;
+
+console.log(rem);
+
+
+//Q7. //
+
+let a = 8;
+let b = 9;
+
+let mul = a*b;
+
+console.log(mul);
+
+
+//Q8. //
+
+let mark1 = 50;
+let marks2 = 20;
+let marks3 = 100;
+
+let sum = mark1+marks2+marks3;
+let avg = sum/3;
+
+console.log(sum,avg.toFixed(2));
